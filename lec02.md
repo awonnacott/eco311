@@ -1,3 +1,8 @@
+---
+header-includes: |
+    \usepackage[margin=1in]{geometry}
+---
+
 # Primitives of an Economy
 1. Time
     * Static
@@ -22,11 +27,12 @@
 \newpage
 # Static Economy
 1. Time: static
+2. Agents
 3. Commodity set - Two goods:
-    * Input: $h =$ labor services
+    * Input: labor services \( h \)
     * Output - Final good - Consumption:
-        * Private = c
-        * Public = g
+        * Private \(c\)
+        * Public \(g\)
 4. Markets
     1. Final good market
     2. Labor market
@@ -46,10 +52,27 @@
         * \( \lim\limits_{c \to 0} U_c = \infty \)
         * \( \lim\limits_{l \to \infty} U_l = \infty \)
 5. Budget constraint
-    * In dollar terms, with price $p$, quantity $c$, nominal wage $w$, dividend $d$, lump sum tax $t$:
-    \( pc \leq w^N h + d^N - t^N \) where $N$ tags as nominal.
-    * In real terms, with numeraire of economy $c$, then other variables in terms of $c$:
+    * In dollar terms, with price \(p\), quantity \(c\), nominal wage \(w\), dividend \(d\), lump sum tax \(t\):
+
+        \( pc \leq w^N h + d^N - t^N \) where \(N\) tags as nominal.
+    * In real terms, with numeraire of economy \(c$, then other variables in terms of \(c\):
     \( c \leq wh + d - t \)
-    where $h = 1-l$
+    where \(h = 1-l\)
     * Shown with budget constraint as non-axis boundary of budget set, and wage is the price of leisure, illustrated by
     \( c + wl \leq w + d - t \)
+6. Production Technology
+    * Total factor productivity \( z \), labor \( m \), capital \( k \): \( y = zf(k, m) \)
+    * Propreties of \(f\)
+        1. Monotonicity: marginal product of labor \(f_m > 0\), marginal product of capital \(f_k > 0 \)
+        2. Concavity: decreasing marginal returns
+            * Two inputs are complementary if \( f_{mk} \geq 0 \)
+        3. Linearity: constant returns to scale
+            * Increasing returns to scale is \(f(\alpha k, \alpha m) > \alpha f(k, m)\)
+
+    * Common \(f\):
+        * Cobb-Douglas: \( y = zk^\alpha m^{1-\alpha} \) for \( \alpha \in (0, 1) \)
+        * Constant Elasticity of Substitution subsumes Cobb-Douglas when \(\gamma = 0 \):
+
+            \( y = z\left[\alpha k^\gamma (1-\alpha)m^\gamma\right]^{\frac{1}{\gamma}}\) for \( \gamma \in (-\infty, 1), \alpha \in (0, 1) \)
+7. Government
+   * Government budget constraint \( g = t \) where spending \(g\) is a parameter.
