@@ -50,7 +50,7 @@ Savings: \( s_1 = y_1^D - c_1 = (1-\tau_1)w_1(1-l_1) + (1+r_1) \bar{a}_1 + d_1 +
     + b_1 + \frac{b_2}{1 + r_2} \]
 The relevant Lagrangian is:
 
-\begin{multline*} \mathcal{L}(c_1, c_2, l-1, l_2, \lambda) = u(c_1, l_2) + \beta u(c_2, l_2) \\
+\begin{multline*} \mathcal{L}(c_1, c_2, l_1, l_2, \lambda) = u(c_1, l_2) + \beta u(c_2, l_2) \\
 + \lambda\paren{
 (1-\tau_1)w_1(1-l_1) + \frac{(1-\tau_2)w_2(1-l_2)}{1 + r_2}
     + (1+r_1) \bar{a}_1 + d_1 + \frac{d_2}{1 + r_2}
@@ -62,7 +62,7 @@ The relevant Lagrangian is:
 From consumption FOCs
 \[ \mathcal{L}_{c_1} = 0 \Leftrightarrow u_c(c_1^*, l_1^*) = \lambda \]
 \[ \mathcal{L}_{c_2} = 0 \Leftrightarrow \beta u_c(c_2^*, l_2^*) = \frac{\lambda}{1 + r_2} \]
-then we find
+then we find the **Euler equation**:
 \[\frac{ u_c(c_1^*, l_1^*) }{ u_c(c_2^*, l_2^*) } = \beta (1 + r_2)\]
 which is a general result which holds in multi-period economies: the intertemporal consumption allocation is determined by the discount factor and the interest rate.
 

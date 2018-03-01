@@ -5,6 +5,8 @@ header-includes: |
     \usepackage{mathrsfs}
 ---
 
+*I was pretty incoherent today because I procrastinated graph theory until 3AM*
+
 ## Social Efficiency
 
 Is the competitive equilibrium the first best allocation?

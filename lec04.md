@@ -30,7 +30,7 @@ so
 Maximizing profits at \( \Pi^* = zf(n^*, \overline{k}) - wn^* = zf(n^*, \overline{k}) - f_n(n^*, \overline{k})n^* \),
 then profits tell us \(d^*\)
 
-## Competitive equilibrium for static economy
+## Competitive equilibrium for Static Economy
 
 * Exogenous variables \( z, \overline{k}, g \)
 * Endogenous variables: quantities \( c^*, l^*, n^*, d^*, y^* \), price \(w^*\), govt policty \(t^* \)
