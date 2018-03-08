@@ -37,7 +37,7 @@ header-includes: |
     1. Final good market
     2. Labor market
 5. Time constraint \(h+l=1\)
-    * Time allocated to work \(=\frac{8*5*50}{16*365}=\frac{1}{3}\)
+    * Time allocated to work \(=\frac{8\cdot 5\cdot 50}{16\cdot 365}=\frac{1}{3}\)
 5. Preferences
     * Utility function \(u(c,l,g)=U(c,l)+V(g)\) meets the following properties:
         1. Monotonicity: First derivative is positive
