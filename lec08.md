@@ -37,19 +37,19 @@ such that:
 \( \max\limits_{c_1, l_1, c_2, l_2, k_2} u(c_1, l_1) + \beta u(c_2, l_2) \) such that
 
 * First period feasible: \( c_1 + k_2 - (1-\delta) k_1 = z_1 f(1-l_1, k_1) \)
-* Second period feasible: \( c_2 = z_2 f(1 - l_2, k-2) + (1-\delta)k_2 \)
+* Second period feasible: \( c_2 = z_2 f(1 - l_2, k_2) + (1-\delta)k_2 \)
 \[
     \mathcal{L} = u(c_1, l_1) + \beta u(c_2, l_2)
     + \lambda_1 \paren{z_1 f(1-l_1, k_1) - c_1 - k_2 + (1-\delta) k_1}
-    + \lambda_2 \paren{z_2 f(1 - l_2, k-2) + (1-\delta)k_2 - c_2}
+    + \lambda_2 \paren{z_2 f(1 - l_2, k_2) + (1-\delta)k_2 - c_2}
 \]
 * FOC \(c_1\): \(u_c(c_1, l_1) = \lambda_1\)
 * FOC \(c_2\): \(\beta u_c(c_2, l_2) = \lambda_2\)
 * FOC \(l_1\): \(u_l(c_1, l_1) = \lambda_1 z_1 f_n(1-l_1, k_1)\)
 * FOC \(l_2\): \(\beta u_l(c_2, l_2) = \lambda_2 z_2 f_n(1-l_2, k_2)\)
-* FOC \(k_2\): \(\lambda_1 = \lambda_2 \paren{z_2 f_k(1-l_2, k-2) + (1-\delta)}\)
+* FOC \(k_2\): \(\lambda_1 = \lambda_2 \paren{z_2 f_k(1-l_2, k_2) + (1-\delta)}\)
 
-This gives us \( \frac{u_l(c_t, l-t)}{u_c(c_t, l_t)} = z_t f_n(1-l_t, k_t) \),
+This gives us \( \frac{u_l(c_t, l_t)}{u_c(c_t, l_t)} = z_t f_n(1-l_t, k_t) \),
 which is not the competitive equilibrium becaues it would have been \( (1-\tau_t) w_t\).
 There is a wedge resulting in workers performing less labor.
 

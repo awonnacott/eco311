@@ -67,8 +67,8 @@ then we find the **Euler equation**:
 which is a general result which holds in multi-period economies: the intertemporal consumption allocation is determined by the discount factor and the interest rate.
 
 From leisure FOCs
-\[ \mathcal{L}_{l_1} = 0 \Leftrightarrow u_l(l_1^*, l_1^*) = \lambda (1 - \tau_1) w_1\]
-\[ \mathcal{L}_{l_2} = 0 \Leftrightarrow \beta u_l(l_2^*, l_2^*) = \frac{\lambda(1 - \tau-2) w_2}{1 + r_2} \]
+\[ \mathcal{L}_{l_1} = 0 \Leftrightarrow u_l(c_1^*, l_1^*) = \lambda (1 - \tau_1) w_1\]
+\[ \mathcal{L}_{l_2} = 0 \Leftrightarrow \beta u_l(c_2^*, l_2^*) = \frac{\lambda(1 - \tau-2) w_2}{1 + r_2} \]
 then we find the intratemporal MRS:
 \[\frac{ u_l(c_1^*, l_1^*) }{ u_c(c_2^*, l_2^*) } = (1 - \tau_t) w_t\]
 Note the distortionary taxes ensure a non-Pareto-optimal competitive equilibrium.
@@ -79,11 +79,11 @@ And as above the intertemporal time allocation is determined by the dicount fact
 \newpage
 ## Firm Problem
 
-\[ d_t = \Pi_t = \max\limits_{\curly{n_t, k_t}_{t=1}^2} z_tf(k-t, n_t) - w(t n_t - (r_t + \delta) k_t \]
+\[ d_t = \Pi_t = \max\limits_{\curly{n_t, k_t}_{t=1}^2} z_tf(k_t, n_t) - w_t n_t - (r_t + \delta) k_t \]
 
-Marginal product of labor \( z_t f_n (n_t, k-t) = w_t \)
+Marginal product of labor \( z_t f_n (k_t, n_t) = w_t \)
 
-Marginal product of capital \( z_t f_k(k-t, n_t) = r_t + \delta \)
+Marginal product of capital \( z_t f_k(k_t, n_t) = r_t + \delta \)
 
 With constant returns to scale this only constrains the ratio.
 
