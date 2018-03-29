@@ -15,7 +15,7 @@ To get a closed form, consider some utility functions:
 ### Constant Elasticity of Substitution
 CS utility is \( u(c) = \frac{c^{1-\gamma} - 1}{1 - \gamma} \) for \( \gamma \in [0, \infty) \) coefficient of relative risk aversion.
 
-Note \( \gamma = 0 \) is linear utility, \( \gamma = 1 \) is log utility, and \( \gamma \to \infty \) is Leontief utiilty \( \min \paren{c_1, c_2} \).
+Note \( \gamma = 0 \) is linear utility, \( \gamma = 1 \) is log utility, and \( \gamma \to \infty \) is Leontief utility \( \min \paren{c_1, c_2} \).
 
 The elasticity of intertemporal substitution is then \( \frac{1}{\gamma} \).
 These two constants are not directly related in every utility function, and their simple relation with CS is why we are using it here.
