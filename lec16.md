@@ -13,12 +13,12 @@ header-includes: |
 * Maximize discounted present value of profits  with production function having \( f_k > 0 \) and \( f_{k,k} < 0 \) and \( k_{t+1} = (1-\delta) k_t + I_t \) and discounted exactly at the interest rate \( 1 + r \):
 \[ \max V_t = \max \sum\limits_{j=0}^{\infty} \pfrac{1}{1+r}^j \Pi_{t+j} = \max\limits_{\curly{I_{t+j}}_{j=0}^{\infty}}\sum\limits_{j=0}^{\infty} \pfrac{1}{1+r}^j  \paren{z_{t+j} f(k_{t+j}) - p_{t+j}I_{t+j}} \]
 * Substitute motion for capital into capital in objective function and maximize over \( k_{t+j+1} \)
-\[ \max V_t = \max\limits_{\curly{K_{t+j+1}}_{j=0}^{\infty}}\sum\limits_{j=0}^{\infty} \pfrac{1}{1+r}^j  \paren{z_{t+j} f(k_{t+j}) - p_{t+j} \paren{k_{t+j+1} - (1-\delta) k_{t+j}}} \]
-\[ \operatorname{FOC}(K_{t+1}) : \pfrac{1}{1+r}\paren{z_{t+1} f_k(k_{t+1}) + p_{t+1}(1-\delta)} = p_t \]
+\[ \max V_t = \max\limits_{\curly{k_{t+j+1}}_{j=0}^{\infty}}\sum\limits_{j=0}^{\infty} \pfrac{1}{1+r}^j  \paren{z_{t+j} f(k_{t+j}) - p_{t+j} \paren{k_{t+j+1} - (1-\delta) k_{t+j}}} \]
+\[ \operatorname{FOC}(k_{t+1}) : \pfrac{1}{1+r}\paren{z_{t+1} f_k(k_{t+1}) + p_{t+1}(1-\delta)} = p_t \]
 * Marginal cost is equal to anti-depreciated marginal value, where marginal value is marginal product of capital plus resale of the excess capital.
 Note that the resale value change calculates obsolescence (technological progress) whereas \( \delta \) captures physical depreciation (decay).
 * \( f(k_t) = \frac{1}{\alpha} k_t^{\alpha} \) so \( f_k = k_t^{\alpha - 1} \) then we have \( (1+r) p_t - (1-\delta) p_{t+1} = z_{t+1} k_{t+1}^{\alpha - 1} \).
-\[ k_{t+1}^* = \pfrac{z_{t+1}}{(1+r) p_t - (1-\delta) p_{t+1}}^{\frac{1}{1-\alpha}} \]
+\[ k_{t+1}^* = f^{-1}\pfrac{z_{t+1}}{(1+r) p_t - (1-\delta) p_{t+1}}= \pfrac{z_{t+1}}{(1+r) p_t - (1-\delta) p_{t+1}}^{\frac{1}{1-\alpha}} \]
 * Firm invests more when: \( z_{t+1} \) rises; \( p_t \) fall; \( r \) falls, \( \delta \) falls, \( p_{t+1} \) rises.
 * This prices capital at \( p_t = \frac{z_{t+1}k_{t+1}^{\alpha - 1}}{1+r} + \pfrac{1-\delta}{1+r} p_{t+1} \) corresponds to the asset pricing equation \( p_t = y_t + \beta p_{t+1} \) where the dividend is the revenues provided and the discounting is the depreciation and the interest.
 * Substituting the recurrence yields \( p_t = \pfrac{1}{1+r} \sum\limits_{j=0}^{\infty} \pfrac{1-\delta}{1+r}^j z_{t+j+1} k_{t+j+1}^{\alpha - 1} \) which is exactly discounted present value of dividends (noting that capital is productive starting next period) and is the fundamental value of capital.
